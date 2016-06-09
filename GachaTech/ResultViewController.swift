@@ -83,6 +83,7 @@ class ResultViewController: UIViewController {
         
         //どのレイヤーをアニメーションさせるか指定する
         haikeiImageView.layer.addAnimation(animation, forKey: nil)
+        monsterImageView.layer.addAnimation(animation, forKey: nil)
         
     }
     
